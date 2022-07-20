@@ -1,0 +1,57 @@
+.about-main-container {
+  background-color: #161625;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 100vh;
+  width: 100%;
+  margin-top: 60px;
+}
+@media screen and (max-width: 600px) {
+  .about-main-container {
+    margin-top: 0px;
+  }
+}
+
+.about-content-container {
+  margin: 7px;
+  padding: 7px;
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 170px;
+}
+
+.about-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 64px;
+  color: #f8fafc;
+}
+.about-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  color: #94a3b8;
+}
+.about-vaccine-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #e2e8f0;
+}
+.fact-list {
+  margin-top: 32px;
+  padding: 0;
+  list-style-type: none;
+  margin: 35px;
+}
